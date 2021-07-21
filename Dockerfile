@@ -1,11 +1,11 @@
 FROM golang:1.16-alpine
 
 RUN apk add --no-cache git
-RUN mkdir /frazzo
-ADD . /frazzo
+RUN mkdir /fraazo
+ADD . /fraazo
 
 # Set the Current Working Directory inside the container
-WORKDIR /frazzo
+WORKDIR /fraazo
 
 # We want to populate the module cache based on the go.{mod,sum} files.
 COPY go.mod .
@@ -23,4 +23,4 @@ RUN go build -o main  .
 EXPOSE 8080
 
 # Run the binary program produced by `go install`
-CMD ["/frazzo/main"]
+CMD ["/fraazo/main"]
