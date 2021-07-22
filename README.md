@@ -2,7 +2,7 @@
 Web application which loads a CSV on startup and then exposes an API to explore the file.
 
 ### clone the project
-  `git clone https://github.com/FoodDarzee/take-home.git`
+ `git clonehttps://github.com/shatrup/fraazo.git`
   
 ### build the docker image
 first go to the root directory of the project then type   
