@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "5d6623a7-9c5b-4d60-a351-ea358dd2f28b",
+		"name": "fraazo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8082/ten",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8082/ten",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"ten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8082/one",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8082/one",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"one"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8082/fifty five",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8082/fifty five",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"fifty five"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
